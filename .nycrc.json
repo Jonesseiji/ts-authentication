@@ -1,0 +1,8 @@
+{
+  "extension": [".ts"],
+  "require": ["ts-node/register"],
+  "exclude": ["**/*.d.ts"],
+  "reporter": ["html"],
+  "all": true,
+  "extends": ["@istanbuljs/nyc-config-typescript"]
+}
